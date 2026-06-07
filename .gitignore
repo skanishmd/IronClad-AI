@@ -1,0 +1,7 @@
+# DO NOT REMOVE: Prevents personal data from being committed to GitHub
+GEMINI.md
+SECRET_IP.md
+memory/
+*.local
+*.env
+.history/
