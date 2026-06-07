@@ -1,55 +1,64 @@
-# 🛡️ IronClad AI: Universal Secure Agent Infrastructure
+# 🛡️ IronClad AI
+### *The Universal Secure Agent Infrastructure*
 
-> **"Stop 'Vibe-Coding' with sensitive data. IronClad AI provides the surgical infrastructure needed to keep your research secrets local while your AI agent works in the cloud."**
+[![Security: Hardened](https://img.shields.io/badge/Security-Hardened-success?style=for-the-badge&logo=google-cloud&logoColor=white)](https://github.com/skanishmd/IronClad-AI)
+[![Optimized for: Gemini](https://img.shields.io/badge/Optimized%20for-Gemini%20CLI-blue?style=for-the-badge&logo=google-gemini&logoColor=white)](https://github.com/skanishmd/IronClad-AI)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-A universal security protocol for orchestrating AI agents in sensitive R&D environments. IronClad AI hardens local memory and air-gaps proprietary research secrets across OpenAI, Claude, and Cursor workflows but optimized for GEMINI.
-
----
-
-## 🚀 The Methodology: Universal Security Tiers
-
-This infrastructure separates data into three distinct security layers:
-1. **Context (Public/Shared):** High-level goals in `AGENT.md` or `GEMINI.md`.
-2. **Intellectual Property (Air-Gapped):** Sensitive scaffolds and algorithms in `SECRET_IP.md`.
-3. **Local Shield:** Automatic encryption and folder-hiding for your agent's config (`.gemini`, `.claude`, etc.).
+> **"Stop ''Vibe-Coding'' with sensitive data. IronClad AI provides the surgical infrastructure needed to keep your research secrets local while your AI agent works in the cloud."**
 
 ---
 
-## 🛠️ Supported Tools
-- **Optimized for:** Gemini CLI
-- **Compatible with:** OpenAI (Aider), Claude Dev (Cline), Cursor, and custom local agents.
+## 📖 Overview
+**IronClad AI** is a professional-grade security protocol designed for researchers, founders, and developers orchestrating AI agents in sensitive R&D environments. It hardens local memory and air-gaps proprietary research secrets across **OpenAI**, **Claude**, and **Cursor** workflows—while remaining **best-in-class for Gemini CLI**.
 
 ---
 
-## 🔒 Security CLI Instructions
+## 🚀 Surgical Architecture: Security Tiers
 
-### Windows (PowerShell)
-To hide and encrypt your environment:
-```powershell
+| Tier | Focus | Implementation |
+| :--- | :--- | :--- |
+| **01. Context** | Public/Shared Intent | \AGENT.md\ or \GEMINI.md\ |
+| **02. Intel** | Air-Gapped IP | \SECRET_IP.md\ |
+| **03. Shield** | Automation | \.gemini\ / \.claude\ Hiding |
+
+---
+
+## 🔒 Execution Protocol
+
+### 💻 Windows (PowerShell)
+To activate the shield and encrypt your environment:
+\\\powershell
 .\SecureMemory.ps1 -Action Lock
-```
+\\\
 
-To reveal your environment for editing:
-```powershell
+To standby for editing:
+\\\powershell
 .\SecureMemory.ps1 -Action Unlock
-```
+\\\
 
-### Mac/Linux (Bash)
-To hide and restrict permissions:
-```bash
+### 🍎 Mac / 🐧 Linux (Bash)
+To restrict permissions and hide:
+\\\ash
 chmod +x secure_memory.sh
 ./secure_memory.sh lock
-```
+\\\
 
 To restore visibility:
-```bash
+\\\ash
 ./secure_memory.sh unlock
-```
+\\\
+
+---
+
+## 🛠️ Ecosystem Compatibility
+*   **Primary:** [Gemini CLI](https://github.com/google/gemini-cli)
+*   **Secondary:** OpenAI (Aider), Claude Dev (Cline), Cursor, and Custom Agents.
 
 ---
 
 ## ⚠️ The Iron-Clad Warning
-The `.gitignore` in this repo is your primary shield. **Do not modify it** unless you fully understand how to air-gap local data.
+The \.gitignore\ in this repository is your **Primary Shield**. It is pre-configured to ensure your research secrets never leak to the public web. **Do not modify it.**
 
 ---
-*Architected by Anish.*
+*Architected by **Anish.***
