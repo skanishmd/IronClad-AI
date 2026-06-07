@@ -5,7 +5,7 @@
 [![Optimized for: Gemini](https://img.shields.io/badge/Optimized%20for-Gemini%20CLI-blue?style=for-the-badge&logo=google-gemini&logoColor=white)](https://github.com/skanishmd/IronClad-AI)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-> **"Stop ''Vibe-Coding'' with sensitive data. IronClad AI provides the surgical infrastructure needed to keep your research secrets local while your AI agent works in the cloud."**
+> **"Stop 'Vibe-Coding' with sensitive data. IronClad AI provides the surgical infrastructure needed to keep your research secrets local while your AI agent works in the cloud."**
 
 ---
 
@@ -18,9 +18,9 @@
 
 | Tier | Focus | Implementation |
 | :--- | :--- | :--- |
-| **01. Context** | Public/Shared Intent | \AGENT.md\ or \GEMINI.md\ |
-| **02. Intel** | Air-Gapped IP | \SECRET_IP.md\ |
-| **03. Shield** | Automation | \.gemini\ / \.claude\ Hiding |
+| **01. Context** | Public/Shared Intent | `AGENT.md` or `GEMINI.md` |
+| **02. Intel** | Air-Gapped IP | `SECRET_IP.md` |
+| **03. Shield** | Automation | `.gemini` / `.claude` Hiding |
 
 ---
 
@@ -28,26 +28,26 @@
 
 ### 💻 Windows (PowerShell)
 To activate the shield and encrypt your environment:
-\\\powershell
+```powershell
 .\SecureMemory.ps1 -Action Lock
-\\\
+```
 
 To standby for editing:
-\\\powershell
+```powershell
 .\SecureMemory.ps1 -Action Unlock
-\\\
+```
 
 ### 🍎 Mac / 🐧 Linux (Bash)
 To restrict permissions and hide:
-\\\ash
+```bash
 chmod +x secure_memory.sh
 ./secure_memory.sh lock
-\\\
+```
 
 To restore visibility:
-\\\ash
+```bash
 ./secure_memory.sh unlock
-\\\
+```
 
 ---
 
@@ -58,7 +58,7 @@ To restore visibility:
 ---
 
 ## ⚠️ The Iron-Clad Warning
-The \.gitignore\ in this repository is your **Primary Shield**. It is pre-configured to ensure your research secrets never leak to the public web. **Do not modify it.**
+The `.gitignore` in this repository is your **Primary Shield**. It is pre-configured to ensure your research secrets never leak to the public web. **Do not modify it.**
 
 ---
 *Architected by **Anish.***
