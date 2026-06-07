@@ -5,3 +5,7 @@ memory/
 *.local
 *.env
 .history/
+CLAUDE.md
+.clinerules
+.cursorrules
+AGENT.md
