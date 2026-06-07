@@ -40,4 +40,4 @@ To reveal your environment for editing:
 The \.gitignore\ in this repo is your primary shield. **Do not modify it** unless you fully understand how to air-gap local data.
 
 ---
-*Architected by a Computational Oncology Researcher & AI-Bio Founder.*
+*Architected by Anish*
