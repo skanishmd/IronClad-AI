@@ -9,8 +9,42 @@
 
 ---
 
+## 📑 Table of Contents
+- [📖 Overview](#-overview)
+- [⚡ Core Features](#-core-features)
+- [🏗️ The Iron-Clad Workflow](#️-the-iron-clad-workflow)
+- [🚀 Surgical Architecture](#-surgical-architecture-security-tiers)
+- [🔒 Execution Protocol](#-execution-protocol)
+- [🛠️ Ecosystem Compatibility](#️-ecosystem-compatibility)
+- [⚠️ Warning](#️-the-iron-clad-warning)
+
+---
+
 ## 📖 Overview
 **IronClad AI** is a professional-grade security protocol designed for researchers, founders, and developers orchestrating AI agents in sensitive R&D environments. It hardens local memory and air-gaps proprietary research secrets across **OpenAI**, **Claude**, and **Cursor** workflows—while remaining **best-in-class for Gemini CLI**.
+
+---
+
+## ⚡ Core Features
+*   **🛡️ Air-Gapped Security:** Separates proprietary logic from public context files.
+*   **⚡ Zero-Config Automation:** Ready-to-use scripts for Windows, Mac, and Linux.
+*   **🌍 Universal Compatibility:** Supports all major AI CLI agents (Gemini, Claude, GPT).
+*   **📦 Research-First Design:** Tailored for the complex needs of Bio-Founders and Academic Researchers.
+
+---
+
+## 🏗️ The Iron-Clad Workflow
+*How data flows through the secure infrastructure:*
+
+```mermaid
+graph TD
+    A[AI Agent / LLM] --> B{Security Filter}
+    B -->|Public| C[AGENT.md / GEMINI.md]
+    B -->|Private| D[SECRET_IP.md]
+    C --> E[Cloud Processing]
+    D -->|Local Only| F[Local Air-Gap]
+    G[SecureMemory Script] -->|Hide/Encrypt| H[.gemini / .claude config]
+```
 
 ---
 
