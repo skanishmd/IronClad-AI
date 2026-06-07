@@ -2,7 +2,7 @@
 
 > **"Stop 'Vibe-Coding' with sensitive data. IronClad AI provides the surgical infrastructure needed to keep your research secrets local while your AI agent works in the cloud."**
 
-A universal security protocol for orchestrating AI agents in sensitive R&D environments. IronClad AI hardens local memory and air-gaps proprietary research secrets across OpenAI, Claude, and Cursor workflows but optimized for GEMINI.
+A universal security protocol for orchestrating AI agents in sensitive R&D environments. IronClad AI hardens local memory and air-gaps proprietary research secrets across OpenAI, Claude, and Cursor workflows but optimized for GEMINI CLI.
 
 ---
 
