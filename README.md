@@ -34,10 +34,22 @@ To reveal your environment for editing:
 .\SecureMemory.ps1 -Action Unlock
 ```
 
+### Mac/Linux (Bash)
+To hide and restrict permissions:
+```bash
+chmod +x secure_memory.sh
+./secure_memory.sh lock
+```
+
+To restore visibility:
+```bash
+./secure_memory.sh unlock
+```
+
 ---
 
 ## ⚠️ The Iron-Clad Warning
 The `.gitignore` in this repo is your primary shield. **Do not modify it** unless you fully understand how to air-gap local data.
 
 ---
-*Architected by a Computational Oncology Researcher & AI-Bio Founder.*
+*Architected by Anish.*
